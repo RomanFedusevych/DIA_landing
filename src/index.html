@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dia</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="shortcut icon" href="images/logo/favicon.svg" type="image/svg">
   </head>
   <body class="page__body">
     <header class="page__header header" >
@@ -111,7 +112,7 @@
               can solve business challenges.
             </span>
 
-            <a href="#" class="strategic__link">
+            <a href="#about-us" class="strategic__link">
               <button class="strategic__button">
                 Learn more
               </button>
@@ -119,26 +120,26 @@
 
           </div>
 
-          <div class="strategic__slider slider">
-            <div class="slider__container">
-
-              <div class="slider__controls">
-                <div class="slider__arrows">
-                  <button class="slider__arrow slider__arrow--left">&lt</button>
-                  <button class="slider__arrow slider__arrow--right">&gt</button>
-                </div>
-
-                <div class="slider__text">
-                  <h3 class="slider__title">INtro</h3>
-                  <span class="slider__minititle">
-                    By the same illusion which lifts the
-                    <br class="slider__br">
-                    horizon.
-                  </span>
-                </div>
-              </div>
-            </div>
+          <div class="slider picture-1">
+        <div class="slider__content">
+          <div class="slider__arrows">
+            <button class="slider__arrow arrow--left">
+              &lt
+            </button>
+            <button class="slider__arrow arrow--right">
+              &gt
+            </button>
           </div>
+
+          <div class="slider__text">
+            <h4 class="slider__title">Intro</h4>
+            <p class="slider__description">
+              By the same illusion which lifts the
+              <br>horizon.
+            </p>
+          </div>
+
+        </div>
         </div>
       </section>
     </header>
@@ -224,7 +225,7 @@
                   Packaging
                 </span>
                 <div class="process__link">
-                  <a href="#" class="process__link--link"></a>
+                  <a href="#Contact Us" class="process__link--link"></a>
                   <span class="process__link--text">Learn more</span>
                 </div>
               </div>
@@ -240,7 +241,7 @@
                   Post Production
                 </span>
                 <div class="process__link">
-                  <a href="#" class="process__link--link"></a>
+                  <a href="#Contact Us" class="process__link--link"></a>
                   <span class="process__link--text">Learn more</span>
                 </div>
               </div>
@@ -256,7 +257,7 @@
                   Blog Content & SEO
                 </span>
                 <div class="process__link">
-                  <a href="#" class="process__link--link"></a>
+                  <a href="#Contact Us" class="process__link--link"></a>
                   <span class="process__link--text">Learn more</span>
                 </div>
               </div>
@@ -272,7 +273,7 @@
                   Strategic Partnerships
                 </span>
                 <div class="process__link">
-                  <a href="#" class="process__link--link"></a>
+                  <a href="#Contact Us" class="process__link--link"></a>
                   <span class="process__link--text">Learn more</span>
                 </div>
               </div>
@@ -342,7 +343,7 @@
               <span class="vision__text">
                 We are sure that first-rate job is possible only if all three components are united.
               </span>
-              <a href="#" class="vision__link">
+              <a href="#email" class="vision__link">
                 <button class="vision__button">Apply</button>
               </a>
             </div>
@@ -393,14 +394,15 @@
                 >
               </label>
               <label for="message" class="form__label">
-                <input
-                  type="message"
+                <textarea
                   name="message"
+                  cols="30"
+                  rows="2"
                   id="message"
                   placeholder="Your message"
                   class="form__input"
                   required
-                >
+                ></textarea>
               </label>
               <button type="submit" class="form__button">Send</button>
             </form>
@@ -497,5 +499,6 @@
       </div>
     </footer>
 
+    <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

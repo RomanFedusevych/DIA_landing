@@ -7,7 +7,6 @@
 
   &__position {
     padding: 20px 0 0 0;
-    display: grid;
     gap: 60px;
 
     @include onDesctop {
@@ -55,12 +54,7 @@
   }
 
   &__slider {
-    padding-left: 120px;
-
-   
-
-    @include onDesctop {
-      display: block;
-    }
+    width: 100vh;
+    padding-top: 80px;
   }
 }
